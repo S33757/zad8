@@ -24,7 +24,12 @@ public class Zwierze {
         return "Zwierze sie porusza";
     }
 
-    public void wyswietlInfomacje(){
-        System.out.println("Nazwa: " + Nazwa + ", Wiek: " + Wiek);
+    public String wyswietlInfomacje(){
+        return "Nazwa: " + Nazwa + ", Wiek: " + Wiek;
     }
+
+    public String srodowiskoNaturalne(){
+        return "Brak danych";
+    }
+
 }
